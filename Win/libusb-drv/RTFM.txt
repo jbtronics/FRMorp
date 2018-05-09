@@ -1,0 +1,16 @@
+This tool uses LIBUSB.  To force the LIBUSB driver, you must open device 
+manager and select the proper USB Mass Storage Device.  Update it's driver
+to the SPMP8k.inf inclosed herein.  Change the VID/PID in the inf file if
+needed.
+
+LIBUSB is an exclusive driver on windows, meaning that the disk will no 
+longer be detected by windows, and the device will cease to function as a 
+normal USB drive when the LIBUSB driver is installed.
+
+In order to minimize the annoyance due to this, you should enter FW upgrade
+mode before forcing the driver.  FW upgrade mode is considered a different
+device, so the normal mode (media storage) can still work with windows.
+
+
+
+
