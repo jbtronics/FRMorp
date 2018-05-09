@@ -459,7 +459,8 @@ int main(int argc, char *argv[])
 	dev=NULL;
 	
   printf("========================================\n");
-  printf("FRMorp - 2010, openschemes.com\n");
+  printf("FRMorp (Version 1.3), openschemes.com\n");
+  printf("Updated and modified by JBtronics\n");
   printf("SPMP8k USB IMG Dumper\n");
   printf("========================================\n");
   
